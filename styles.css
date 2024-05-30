@@ -354,4 +354,8 @@ body{
     .popup_info_film{
         max-width: 180px;
     }
+      .info_about_film{
+        width: 210px;
+        padding-top: 20px;
+    }
 }
