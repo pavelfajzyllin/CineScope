@@ -252,6 +252,9 @@ body{
     height: 500px;
     border-radius: 10px;
 }
+.no-scroll{
+    overflow-y: hidden;
+}
 
 @media (max-width: 900px) {
     .section_header{
