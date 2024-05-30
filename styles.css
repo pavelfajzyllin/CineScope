@@ -134,6 +134,7 @@ body{
 .films{
     background-color: rgb(82, 80, 80);
     width: 800px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
