@@ -76,7 +76,7 @@ async function popupOpen(filmId) {
         <div class="popup_info_film">
             <h2 class="popup_name_film">${respData.nameRu}</h2>
             <p class="popup_text_film">Рейтинг фильма: ${respData.ratingKinopoisk}</p>
-            <p class="popup_text_film">Год выпуска: ${respData.startYear}</p>
+            <p class="popup_text_film">Год выпуска: ${respData.year}</p>
             <p class="popup_text_film">Страна: ${respData.countries.map((el) => `<span>${el.country}</span>`)}</p>
             <p class="popup_text_film">Жанр: ${respData.genres.map((el) => `<span>${el.genre}</span>`)}</p>
             <p class="popup_text_film">Описание фильма: <br> ${respData.description}</p>
