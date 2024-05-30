@@ -1,3 +1,5 @@
+const bodyNode = document.body;
+
 const inputNode = document.querySelector('.js-input');
 const sectionFilmsNode = document.querySelector('.js-films');
 
@@ -56,6 +58,7 @@ async function popupOpen(filmId) {
     
     popupContentNode.innerHTML = '';
     popupNode.classList.add('popup_open');
+    bodyNode.classList.add('no-scroll');
 
     getFilmId(API_FOR_ID + filmId);
     async function getFilmId (url) {
@@ -99,6 +102,7 @@ window.addEventListener('keydown', (e) => {
 
 function popupClose() {
     popupNode.classList.remove('popup_open');
+     bodyNode.classList.remove('no-scroll');
 }
 async function getId (url) {
     const resp = await fetch(url, {
