@@ -45,7 +45,7 @@ function showMovies(data) {
         <div class="info_about_film">
             <h2 class="name_film">${film.nameRu}</h2>
             <p class="info_film">Год выпуска: ${film.year}</p>
-            <p class="info_film">Жанр: </p>
+            <p class="info_film">Жанр: </br> ${film.genres.map((el) => `<span>${el.genre}</span>`)} </p>
         </div>
         `
      
