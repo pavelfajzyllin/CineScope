@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Lobster&family=Manrope&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CineScope</title>
+</head>
+<div class="contaiter">
+    <div class="section_header">
+        <div class="logo"><img class="logo" src="Cinescope logo.png" alt="классный логотип, который я сам сделал"></div>
+        <div class="header">
+            <a class="item_header" href="http://">Главная</a>
+            <a class="item_header" href="http://">О нас</a>
+            <a class="item_header" href="http://">О вас</a>
+            <a class="item_header" href="http://">Сарказм</a>
+            <a class="item_header" href="http://">Маразм</a>
+        </div>
+    </div>
+    <div class="js-section_for_posters section_for_posters">
+        <img class="js-poster poster" src="morning_show_poster.jpg" alt="" srcset="">
+        <img class="js-poster poster" src="game_of_trones_poster.jpeg" alt="" srcset="">
+        <img class="js-poster poster" src="severance_poster.jpg" alt="" srcset="">
+        <img class="js-poster poster" src="big_bang_poster.jpg" alt="" srcset="">
+        <div class="vectors">
+            <button class="js-vector-left vector-left"></button>
+            <button class="js-vector-right vector-right"></button>
+        </div>
+    </div>
+    <div class="section_films">
+        <div class="input_and_selector">
+            <input class="js-input input" type="text" placeholder="Введите название фильма">
+            <select class="selector" name="Сортировка" id="">
+                <option class="option" value="">Топ 100</option>
+            </select>
+        </div>
+        <div class="js-films films">
+            <!-- <div class="film">
+                <img class="mini-poster" src="malysh-na-draive_mini-poster.jpg" alt="">
+                <div class="info_about_film">
+                    <h2 class="name_film">Малыш на драйве</h2>
+                    <p class="info_film">Год выпуска: 2017</p>
+                    <p class="info_film">Жанр: триллер</p>
+                </div>
+            </div>
+            <div class="film">
+                <img class="mini-poster" src="malysh-na-draive_mini-poster.jpg" alt="">
+                <div class="info_about_film">
+                    <h2 class="name_film">Малыш на драйве</h2>
+                    <p class="info_film">Год выпуска: 2017</p>
+                    <p class="info_film">Жанр: триллер</p>
+                </div>
+            </div>
+            <div class="film">
+                <img class="mini-poster" src="malysh-na-draive_mini-poster.jpg" alt="">
+                <div class="info_about_film">
+                    <h2 class="name_film">Малыш на драйве</h2>
+                    <p class="info_film">Год выпуска: 2017</p>
+                    <p class="info_film">Жанр: триллер</p>
+                </div>
+            </div>
+            <div class="film">
+                <img class="mini-poster" src="malysh-na-draive_mini-poster.jpg" alt="">
+                <div class="info_about_film">
+                    <h2 class="name_film">Малыш на драйве</h2>
+                    <p class="info_film">Год выпуска: 2017</p>
+                    <p class="info_film">Жанр: триллер</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="js-popup popup">
+        <div class="js-popup_content popup_content">
+            <!-- <img class="popup_poster" src="malysh-na-draive_mini-poster.jpg" alt="" srcset="">
+            <div class="popup_info_film">
+                <h2 class="popup_name_film">Матрица</h2>
+                <p class="popup_text_film">Рейтинг фильма: </p>
+                <p class="popup_text_film">Год выпуска: </p>
+                <p class="popup_text_film">Страна: США </p>
+                <p class="popup_text_film">Жанр: </p>
+                <p class="popup_text_film">Описание фильма: <br>Хакер Нео узнает, что его мир — виртуальный. Выдающийся экшен, доказавший, что зрелищное кино может быть умным</p>
+            </div>
+            <button class="js-btn_close_popup btn_close_popup"></button> -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_wrapper">
+            <p>FPVL</p>
+        </div>
+    </div>
+</div>
+
+<script src="poster.js"></script>
+<script src="api.js"></script>
+<body>
+    
+</body>
+</html>
